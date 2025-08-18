@@ -1,0 +1,32 @@
+[
+  {
+    "titulo": "Hipospádia",
+    "termo-explicativo": "Urinária fora do normal:",
+    "descricao": "Crianças com abertura da uretra posicionada abaixo da ponta do pênis ou com curvatura peniana podem precisar de cirurgia reparadora para restaurar função e estética. Procedimentos como TIP (Snodgrass) são comuns."
+  },
+  {
+    "titulo": "Refluxo Vesicoureteral",
+    "termo-explicativo": "Urina voltando aos rins:",
+    "descricao": "Urina retorna da bexiga para os rins, aumentando o risco de infecções urinárias e lesões renais se não tratado precocemente."
+  },
+  {
+    "titulo": "Criptorquídia e hidrocele",
+    "termo-explicativo": "Testículos não descidos",
+    "descricao": "Testículos que não desceram para o escroto (ou estão fora do lugar habitual) requerem correção entre 6 meses e 1 ano de idade. A hidrocele (líquido ao redor do testículo) também pode exigir intervenção cirúrgica."
+  },
+  {
+    "titulo": "PUV e JUP",
+    "termo-explicativo": "Obstruções urinárias congênitas",
+    "descricao": "Condições como válvulas uretrais posteriores (PUV) e obstrução da junção ureteropélvica (JUP) podem causar cálculo renal, hidronefrose ou disfunção renal, exigindo cirurgia em fases iniciais da infância."
+  },
+  {
+    "titulo": "Litíase pediátrica",
+    "termo-explicativo": "Pedras nos rins ou ureteres",
+    "descricao": "Cálculos urinários em crianças podem provocar dor, infecções e sintomas urinários como urgência e sangue na urina. Em alguns casos é necessário tratamento cirúrgico ou endoscópico."
+  },
+  {
+    "titulo": "Disfunções miccionais e enurese persistente",
+    "termo-explicativo": "",
+    "descricao": "Crianças que continuam a ter escapes urinários diurnos ou noturnos após os 5-6 anos podem sofrer de disfunção vesical, que exige avaliação especializada e, ocasionalmente, cirurgia ou tratamento combinado."
+  }  
+]

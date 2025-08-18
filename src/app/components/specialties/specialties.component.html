@@ -1,0 +1,9 @@
+<h2>Principais tratamentos</h2>
+
+<ul class="grid">
+  <li *ngFor="let item of specialties">
+    <h3>{{ item.titulo }}</h3>
+    <h4>{{ item['termo-explicativo'] }}</h4>
+    <p>{{ item.descricao }}</p>
+  </li>
+</ul>

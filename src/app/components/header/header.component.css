@@ -1,0 +1,71 @@
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 0 2rem;
+  height: 80px; /* altura fixa para alinhamento vertical */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-left,
+.header-center,
+.header-right {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+/* LOGO */
+.header-left {
+  flex: 0 0 auto;
+}
+.header-left .logo {
+  height: 50px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+/* MENU CENTRAL */
+.header-center {
+  flex: 1 1 auto;
+  justify-content: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+.nav-list li a {
+  text-decoration: none;
+  color: #95114a;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  white-space: nowrap;
+}
+.nav-list li a:hover {
+  color: #04b9db;
+}
+
+/* ICONES DIREITA */
+.header-right {
+  flex: 0 0 auto;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  transition: filter 0.3s ease;
+}
+.icon:hover {
+  filter: brightness(0) saturate(100%) invert(44%) sepia(91%) saturate(2273%) hue-rotate(154deg) brightness(95%) contrast(101%);
+}

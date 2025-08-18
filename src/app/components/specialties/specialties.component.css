@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fdfdfd;
+}
+
+.container {
+  padding: 1rem;
+}
+
+section {
+  margin-top: 2rem;
+}
+
+h2 {
+  color: #95114a;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+h3, h4 {
+    color: #95114a;
+}
+
+ul.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.grid li {
+  background: #f9f9f9;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+

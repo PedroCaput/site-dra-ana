@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fdfdfd;
+}
+
+.container {
+  padding: 1rem;
+}
+
+section {
+  margin-top: 2rem;
+}
+
+h2 {
+  color: #95114a;
+}
