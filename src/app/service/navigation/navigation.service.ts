@@ -10,12 +10,17 @@ export class NavigationService {
     const element = document.getElementById(id);
 
     if(element) {
-      element.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start'
-      })
+    const headerOffset = 80; // altura do seu header fixo
+    const elementPosition = element.getBoundingClientRect().top + window.scrollY;
+    const offsetPosition = elementPosition - headerOffset;
+
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: "smooth"
+    })
     }
   }
+  
 
   goToBanner() {
     this.scrollForElement('banner');
