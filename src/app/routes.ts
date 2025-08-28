@@ -6,7 +6,7 @@ const routeConfig: Routes = [
     {
         path: '',
         component: AppComponent,
-        title: 'Tickets - Ingressos para uma vida emocionante'
+        title: 'Dra. Ana  Carolina Menezes'
     },
     {
         path: 'detalhes/:slug',
@@ -21,7 +21,7 @@ const routeConfig: Routes = [
     {
         path: '**',
         component: AppComponent,
-        title: 'Tickets - Ingressos para uma vida emocionante'
+        title: 'Dra. Ana  Carolina Menezes'
     }
 ];
 

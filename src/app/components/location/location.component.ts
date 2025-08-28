@@ -3,13 +3,13 @@ import { CommonModule } from '@angular/common';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
 @Component({
-  selector: 'app-localizacao',
+  selector: 'app-location',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './localizacao.component.html',
-  styleUrls: ['./localizacao.component.css']
+  templateUrl: './location.component.html',
+  styleUrls: ['./location.component.css']
 })
-export class LocalizacaoComponent implements OnInit {
+export class LocationComponent implements OnInit {
   safeMapUrl!: SafeResourceUrl;
 
   constructor ( private sanitizer: DomSanitizer ) {}

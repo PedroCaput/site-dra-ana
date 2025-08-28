@@ -44,23 +44,7 @@ export class NavigationService {
     this.router.navigate(['']);
   }
 
-  goToLogin() {
-    this.router.navigate(['/login']);
-  }
-
-  goToCarshop() {
-    this.router.navigate(['/carrinho']);
-  }
-
-  goToAbout() {
-    this.router.navigate(['/sobre']);
-  }
-
-  goToContact() {
-    this.router.navigate(['/contato']);
-  }
-
-  goToTerms() {
-    this.router.navigate(['/termos']);
+  goToBlog() {
+    this.router.navigate(['/blog']);
   }
 }
